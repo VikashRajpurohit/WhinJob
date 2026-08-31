@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "Job Hunt Assistant",
+    "slug": "job-hunt-assistant",
+    "version": "1.0.0",
+    "scheme": "jobhunt",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.jobhuntassistant.app",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "com.jobhuntassistant.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-sqlite",
+      "expo-secure-store"
+    ],
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1e0000e3-a579-48ab-8077-578bc55be8e5"
+      }
+    },
+    "updates": {
+      "url": "https://u.expo.dev/1e0000e3-a579-48ab-8077-578bc55be8e5"
+    }
+  }
+}
